@@ -303,14 +303,14 @@ export function Chart({
         <path
           d={path(sorted)}
           fill="none"
-          stroke={secondary ? '#b3bdb2' : 'var(--green)'}
+          stroke={secondary ? 'var(--chart-secondary)' : 'var(--accent)'}
           strokeWidth={secondary ? 1.5 : 2.5}
         />
         {secondary && (
-          <path d={path(secondary)} fill="none" stroke="var(--green)" strokeWidth="2.5" />
+          <path d={path(secondary)} fill="none" stroke="var(--accent)" strokeWidth="2.5" />
         )}
         {sorted.map((p, i) => (
-          <circle key={i} cx={x(p.date)} cy={y(p.value)} r="3" fill="var(--green)">
+          <circle key={i} cx={x(p.date)} cy={y(p.value)} r="3" fill="var(--accent)">
             <title>
               {prettyDate(p.date)}: {num(p.value)} {unit}
             </title>
