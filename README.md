@@ -1,6 +1,6 @@
 # TRN — a personal training notebook
 
-A complete, mobile-first training and nutrition app for one person. React, TypeScript, Vite, responsive CSS, and localStorage. No backend, account, API key, or paid service is required. Typography is bundled locally; there are no external font or image requests.
+A complete, mobile-first training and nutrition app for one person. React, TypeScript, Vite, responsive dark-only CSS, and localStorage. No backend, account, API key, or paid service is required. Typography is bundled locally; there are no external font or image requests.
 
 ## Run locally
 
